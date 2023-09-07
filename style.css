@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-family: "Varela", sans-serif;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 30, 121, 0.6195728291316527) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hiddin {
+  display: none !important;
+}
+.site-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-style: solid;
+
+  border-width: 10px;
+
+  border-image: linear-gradient(45deg, rgb(143, 55, 0), rgb(66, 228, 250)) 1;
+}
+.create-user {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  border-style: solid;
+
+  border-width: 10px;
+
+  border-image: linear-gradient(45deg, rgb(143, 55, 0), rgb(66, 228, 250)) 1;
+}
+.form-box {
+  margin: 0 auto;
+  width: 300px;
+  background: linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(45deg, slateblue, coral) border-box;
+  border: 5px solid transparent;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 20px;
+}
+.body-background {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+form input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.gender-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gender label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: inherit;
+  font-size: 20px;
+}
+.submit-btn {
+  background: #0066a2;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.site-list {
+  width: 90%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.site-item {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid rgb(174, 0, 255);
+  text-align: center;
+  list-style: none;
+  border-radius: 10px;
+  margin: 10px;
+}
+#restart {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-name,
+.item-number,
+.item-age,
+.item-gender,
+.item-email {
+  font-weight: 600;
+  color: white;
+}

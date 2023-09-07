@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create user</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button class="create-user" id="site-btn">Create user</button>
+      <form class="form-box hiddin">
+        <input type="url" id="img" placeholder="Photo url" />
+        <input type="text" id="name" placeholder="Full name" />
+        <input type="number" id="age" placeholder="Age" />
+        <input type="email" id="email" placeholder="Email" />
+        <input type="tel" id="tel" placeholder="Tel number" />
+        <h3 class="gender-title">Gender</h3>
+        <div class="gender">
+          <label
+            >Male
+            <input type="radio" id="gender" name="gender" value="Male" />
+          </label>
+          <label for=""
+            >Female
+            <input type="radio" id="gender" name="gender" value="Female" />
+          </label>
+        </div>
+        <button class="submit-btn" id="submit-btn" type="submit">Submit</button>
+      </form>
+      <ul class="site-list hiddin" id="site-list"></ul>
+      <button class="submit-btn hiddin" id="restart">Restart</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
